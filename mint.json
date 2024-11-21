@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Developer's Guide",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/GNet_Logo.svg",
+    "light": "/logo/GNet_Logo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -23,12 +23,16 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://connect.grdd.net/dashboard"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "GNet Connect",
       "url": "api-reference"
+    },
+    {
+      "name": "GASS",
+      "url": "gass-api-reference"
     }
   ],
   "anchors": [
@@ -38,24 +42,20 @@
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
+      "name": "GNet Connect",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://connect.grdd.net"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://griddtechnologies.com/blog/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -70,16 +70,22 @@
     },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "GNet Endpoints",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "GASS Endpoints",
+      "pages": [
+        "gass-api-reference/endpoint/get",
+        "gass-api-reference/endpoint/create",
+        "gass-api-reference/endpoint/delete"
       ]
     }
   ],
